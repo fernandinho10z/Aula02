@@ -1,0 +1,112 @@
+#!/usr/bin/pçython3
+
+# string methods 
+
+'''
+nome = "Fernando"
+
+print (nome)
+
+maiusculo = str.upper(nome)
+print (maiusculo)
+
+minusculo = str.lower(nome)
+
+print (minusculo)
+
+alterar = nome.replace("ndo", "-ndo")
+print (alterar)
+'''
+
+'''
+nome = "Fernando"
+cargo = 'Analista de sistemas'
+telefone = 111111
+x = 'O nome é %s e o seu cargo é %s %s' %(nome, cargo, telefone)
+print (x)
+
+y = 'Cargo %s' %cargo
+print (y)
+'''
+
+'''
+lista = ['coxinha', 'bolinho de queijo', 'risoli', 'abacaxi', 'torresmo']
+print (lista[4])
+
+dicionario = {'nome':'Fernando',
+              'comida':'torresmo', 
+              'restaurante': 'gama'}
+
+print (dicionario ['comida'])
+'''
+
+'''
+alunos = [{'nome': 'Jorge', 'id':1},
+          {'nome': 'Fernando', 'id':2}]
+print (alunos[1]['nome'])
+'''
+ 
+'''
+professores = {'linux':['gabriel', 'mariana', 'jonathan'],
+               'php':['gabriel', 'joao'],
+               'devops':['vinicius', 'alisson']}
+print ('O professor de php é o %s' %professores ['php'][1])
+'''
+
+'''
+#METODOS PARA LISTA
+
+lista = ['abacaxi', 'maca', 'pera', 'goiaba']
+print (lista)
+
+#adiciona um novo item no final da lista
+
+lista.append ('tomate')
+print (lista)
+
+#adiciona um novo item na posição desejada
+lista.insert(1, 'jaca')
+print (lista)
+
+#remover um item da lista
+lista.remove('pera')
+print (lista)
+
+#remove o item desejado da lista
+lista.pop(2)
+print (lista)
+
+#encontra a posicao do objeto
+print (lista.index('abacaxi'))
+
+lista.append('abacaxi')
+print (lista)
+
+#encontrar quantos objetos existem na lista
+print (lista.count('abacaxi'))
+
+#inverter a posicao na lista
+lista.reverse()
+print (lista)
+'''
+
+'''
+#METODOS PARA DICIONARIO
+
+dicionario = {'nome':'fernando', 'telefone':11111111}
+
+#encontrar as chaves do dicionario
+print (dicionario.keys())
+
+#encontrar os valores do dicionario
+print (dicionario.values())
+
+#adicionar e substituir no dicionario
+dicionario ['cargo'] = 'professor'
+print (dicionario)
+'''
+
+nome = input('Digite o seu nome: ')
+print ('Seja bem vindo {}'.format(nome))
+
+
