@@ -1,0 +1,23 @@
+#exercicio
+
+lista = [{'indice1': 123, 'indice2':456}, 'coxinha', 'abacaxi', [7, 3, 2]]
+
+#imprima o valor do indice
+print (lista[0]['indice1'])
+
+#remova a coxinha da lista
+lista.remove ('coxinha')
+print (lista)
+
+#inclua o valor 8 na lista numerica
+lista[2].append(8)
+print (lista)
+
+#inclua um dicionario de produtos na lista principal
+dicionario = {'escola': 'aluno'}
+lista.append(dicionario)
+print (lista)
+
+#inclua o indice3 com o valor 789 no dicionario de indices
+lista[0]['indice3'] = 789
+print (lista)
